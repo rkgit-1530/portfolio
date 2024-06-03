@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+    /* scroll-padding: 10rem; */
+}
+
+body {
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to left,#000000,#3D0000,#000000);
+    /* background-image: url(img/WhatsApp\ Image\ 2024-05-26\ at\ 10.19.27_92156466.jpg); */
+    /* background-image: url(img/bgcs.jpg); */
+    /* background-size: cover; */
+    
+}
+.navbar{
+    width: 100%;
+}
+nav {
+    opacity: 0.9;
+    display: flex;
+    position: fixed; 
+    top: 20;
+    background-color: rgb(251, 248, 248);
+    /* color: black; */
+    justify-content: space-between;
+    padding: 2px;
+    border: 2px solid rgb(147, 17, 17);
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px rgba (0,0,0,3);
+    width: 445px;
+    padding-left: 2px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-bottom: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    /* opacity: 1;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    padding-top: 14px;
+    /* border-radius: 22px; */
+    /* margin-bottom: 20px; */
+    /* text-decoration: none; */
+    color: #050505;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px 15px;
+     display: inline-block;
+    /*transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px; Gives depth to the flip effect */
+}
+
+li a:hover {
+     text-decoration:none;
+     border-radius: 50px;
+     background-color: rgb(147, 17, 17);
+     /* transform: rotateX(360deg); */
+     transition-duration: 0.5s;
+     color: rgb(253, 252, 252);
+      /* z-index: 1; */
+     transition-timing-function: ease-out; 
+     
+}
+/* li a::after:hover{
+    transition-duration: 2s;
+} */
+.front{
+    background:linear-gradient(to left,#000000,#3D0000,#000000);
+    width: 100%;
+    height: 68vh;
+    scroll-behavior: smooth;
+}
+.front h1{
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 40%;
+    color: rgb(238, 229, 226);
+    font-family: serif;
+}
+.surname{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(120, 91, 82);
+}
+.front p {
+    font-size: large;
+    /* margin-top: 11%; */
+    margin-left: 43%;
+    font-weight: bold;
+    color: white;
+}
+.front2 h5{
+    color: white;
+}
+.front a{
+    border: 2px solid rgb (147, 17, 17);
+    border-radius: 22px;
+    background-color: white;
+    color: rgb(147, 17, 17);
+    width: 165px !important;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+.front a:hover{
+    background-color: rgb(147, 17, 17);
+    color: white;
+    transition-duration: 0.5s;
+}
+.front2{
+    margin-left: 43%;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: 5px; */
+}
+.abtmain{
+    background:linear-gradient(to left,#3D0000,#000000,#3D0000)!important;
+    margin-top: 0 !important;
+    height: 100vh;
+
+}
+.aboutme{
+    width: 100%;
+    opacity: 0.9;
+    color: rgb(247, 247, 248);
+    display: flex;
+    overflow:auto;
+    margin-top: 100px;
+}
+.abtmespan{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    padding-bottom: 20px;
+    margin-bottom: 200px !important;
+}
+
+.abtmeh3{
+    display: inline-block;
+    margin: 150px 130px;
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    word-spacing: 2px;
+    line-height: 45px;
+    cursor: pointer;
+    /* text-shadow: 2px 2px 1px rgb(213, 169, 138); */
+}
+
+.mypic{
+    border: 2px solid #111010;
+    margin-top: 110px !important;
+    margin-left: 80px !important;
+    opacity: 1 !important;
+    margin: 10px;
+    border-color: orangered;
+    box-shadow: 5px 5px 5px #421a1a;
+    /* object-fit: cover; */
+}
+.skills{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    /* padding: 50px; */
+    color: wheat;
+}
+.progress{
+    width: 100%;
+    margin-top: 10%;
+}
+.skills img{
+    border-radius: 10px;
+}
+.skill1 ,.skill2,.skill3{
+    height: 500px;
+    box-shadow: 2px 2px 2px rgb(8, 8, 8);
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    border: 2px solid rgb(251, 248, 248);
+    width: 90vw;
+    border-radius: 10px;
+    /* margin-bottom: 20vh; */
+}
+.contact{
+    background-color: linear-gradient;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    background:linear-gradient(to left,#3D0000,#000000,#3D0000);
+}
+.contact h2{
+    color: white;
+    text-align: center;
+}
+.contact-form-container {
+    margin-top: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(214, 27, 27, 0.916);
+    width: 60%;
+    margin-left: 21%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fcfafa;
+    margin-left: 28%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 20%;
+    padding: 10px;
+    background-color: #fbfcfb;
+    color: #3D0000;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 43%;
+}
+
+.contact-form button:hover {
+    color: #f8f9f8;
+    background-color: #3D0000;
+    transition: 0.25s;
+}
+.footer{
+    display: flex;
+    background:linear-gradient(to left,#000000,#3D0000,#000000);
+    height: 30px;
+    color: rgb(238, 183, 183);
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
